@@ -42,7 +42,7 @@ conn = MySQLdb.connect(host=mysqlConn["host"],user=mysqlConn["user"],passwd=mysq
 cur = conn.cursor()
 
 
-"""用户认证,取得一个SESSIONID"""
+"""用户认证,取得一个SESSIONI取D"""
 class auto_zabbix:
     def __init__(self):
         self.type=""
