@@ -30,6 +30,9 @@ import socket
 os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
 
 
+
+
+
 zabbix_zyc = "http://*/api_jsonrpc.php"
 zabbix_rhtx = "http://8/zabbix/api_jsonrpc.php"
 header = {"Content-Type":"application/json"}
