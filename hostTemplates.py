@@ -192,6 +192,11 @@ if __name__=='__main__':
                 add["templateid"]=t
                 tid_list.append(add)
             zabbix.clearTempletes(ip,tid_list,zabbix.url)
-
+"""
+1、新增模板
+参数：IP，模板id列表，zabbixurl
+2、清楚主机模板
+参数：IP，模板id列表，zabbixurl
+"""
 
 
