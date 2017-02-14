@@ -30,9 +30,6 @@ import socket
 os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
 
 
-
-
-
 zabbix_zyc = "http://*/api_jsonrpc.php"
 zabbix_rhtx = "http://8/zabbix/api_jsonrpc.php"
 header = {"Content-Type":"application/json"}
@@ -42,7 +39,7 @@ conn = MySQLdb.connect(host=mysqlConn["host"],user=mysqlConn["user"],passwd=mysq
 cur = conn.cursor()
 
 
-"""用户认证,取得一个SESSIONI取D"""
+"""用户认证,取得一个SESSIONID"""
 class auto_zabbix:
     def __init__(self):
         self.type=""
